@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+#glownyTekst{
+    font-weight: bold;
+    font-family: "Noto Sans Display";
+    font-size: 70px;
+    transition: font-size 1s;
+}
+#glownyTekst:hover{
+    font-size: 80px;
+}
+.tekst{
+    font-weight: bold;
+    font-family: "Noto Sans Display";
+    font-size: 30px;
+    transition: font-size 1s;
+}
+.tekst:hover{
+    font-size: 35px;
+}
+#wynikBmi{
+    font-weight: bold;
+    font-family: "Noto Sans Display";
+    font-size: 30px;
+    transition: font-size 1s;
+}
+#wynikBmi:hover{
+    font-size: 35px;
+}
+#informacjaBmi{
+    font-weight: bold;
+    font-family: "Noto Sans Display";
+    font-size: 20px;
+    transition: font-size 1s;
+}
+#informacjaBmi:hover{
+    font-size: 25px;
+}
+input{
+    background: linear-gradient(rgb(0, 81, 255), rgb(0, 70, 222));
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: "Noto Sans Display";
+    font-weight: bold;
+    transition: font-size 1s;
+}
+input:hover{
+    font-size: 34px;
+}
+input:active{
+    background: linear-gradient(rgb(0, 51, 225), rgb(0, 40, 192));
+}
+button{
+    background: linear-gradient(rgb(0, 81, 255), rgb(0, 70, 222));
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    font-family: "Noto Sans Display";
+    font-weight: bold;
+    margin: 5px;
+    transition: font-size 1s;
+}
+button:hover{
+    font-size: 37px;
+}
+button:active{
+    background: linear-gradient(rgb(0, 51, 225), rgb(0, 40, 192));
+}
