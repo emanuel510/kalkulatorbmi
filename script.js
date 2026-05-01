@@ -74,7 +74,7 @@ guzikObliczeniowy.addEventListener("click", () => {
         informacjaBmi.style.color = `rgb(255, 44, 44)`;
     }
     if(Number(wartoscWagi / (wartoscWzrostu * wartoscWzrostu)) >= 40){
-        klasyfikacjaBmi.textContent = `Otyłość 3 stopnia (40 - > 40)`;
+        klasyfikacjaBmi.textContent = `Otyłość 3 stopnia ( => 40)`;
         klasyfikacjaBmi.style.color = `rgb(127, 1, 1)`;
         informacjaBmi.textContent = `Masz otyłość 3 stopnia. Wskazana natychmiastowa konsultacja z lekarzem. Stan ten może doprowadzić do poważnych uszczerbków na zdrowiu.`;
         informacjaBmi.style.color = `rgb(127, 1, 1)`;
