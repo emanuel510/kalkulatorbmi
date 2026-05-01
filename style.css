@@ -41,6 +41,15 @@ body{
 #informacjaBmi:hover{
     font-size: 25px;
 }
+#disclaimerBmi{
+    font-weight: bold;
+    font-family: "Noto Sans Display";
+    font-size: 20px;
+    transition: font-size 1s;
+}
+#disclaimerBmi:hover{
+    font-size: 25px;
+}
 input{
     background: linear-gradient(rgb(0, 81, 255), rgb(0, 70, 222));
     color: rgb(255, 255, 255);
